@@ -4,16 +4,15 @@ class addition
     {
         return a+b;
     }
-    static int add(int a,int b,int c)
+    static float add(float e,float f)
     {
-        return a+b+c;
+        return  e+f;
     }
 }
-class test 
-{
+class sum{
     public static void main(String[]args)
     {
         System.out.println(addition.add(2,4));
-        System.out.println(addition.add(2,4,6));
+        System.out.println( addition.add(2,3));
     }
 }
